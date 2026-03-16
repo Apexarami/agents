@@ -149,7 +149,7 @@ export class CohereReranker extends BaseReranker {
       }
 
       const requestData = {
-        model: 'rerank-v3.5',
+        model: 'Cohere-rerank-v4.0-fast',
         query: query,
         top_n: topK,
         documents: documents,
